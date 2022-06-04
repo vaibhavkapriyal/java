@@ -2,7 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 class Ab extends Canvas
 {
-	public void main(Graphics g)
+	public void paint(Graphics g)
 	{
 		g.setColor(Color.yellow);
 		g.fillOval(10, 10, 200, 200);
