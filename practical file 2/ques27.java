@@ -5,7 +5,6 @@ import java.awt.event.*;
 public class A extends JFrame implements ActionListener
 {
 	JTextField tf1,tf2,tf3;
-	
 	A()
 	{
 		JLabel l1=new JLabel("Frist no.");
@@ -40,7 +39,6 @@ public class A extends JFrame implements ActionListener
 		add(l3);
 		add(tf3);
 	}
-	
 	public void actionPerformed(ActionEvent e)
 	{
 		String s=e.getActionCommand();
